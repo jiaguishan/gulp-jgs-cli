@@ -1,0 +1,57 @@
+{
+  "name": "gulp-jgs-cli",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "",
+  "keywords": [
+    "gulp",
+    "cli",
+    "jgs"
+  ],
+  "homepage": "https://github.com/jiaguishan/gulp-jgs-cli",
+  "bugs": {
+    "url": "https://github.com/jiaguishan/gulp-jgs-cli/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiaguishan/gulp-jgs-cli.git"
+  },
+  "author": {
+    "name": "jiaguishan",
+    "email": "tammylights@163.com"
+  },
+  "browserslist": [
+    "last 3 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ],
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "main": "lib/index.js",
+  "bin": "bin/gulp-jgs-cli.js",
+  "dependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
+    "browser-sync": "^2.27.5",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-swig": "^0.9.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-load-plugins": "^2.0.7",
+    "gulp-uglify": "^3.0.2",
+    "gulp-useref": "^5.0.0",
+    "sass": "^1.36.0"
+  },
+  "engines": {
+    "node": ">=6"
+  }
+}
